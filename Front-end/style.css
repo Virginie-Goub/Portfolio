@@ -1,0 +1,230 @@
+body {
+  background-image: url("https://us.123rf.com/450wm/yurygulakov/yurygulakov1709/yurygulakov170900004/85751093-ordinateur-portable-argent-moderne-sur-un-fond-noir-la-moiti%C3%A9-de-l-ordinateur-%C3%A0-l-ombre-.jpg?ver=6");
+  background-size: cover;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+/* Barre de navigation */
+.main-navbar .logo {
+  height: 50px;
+  margin: 7px 20px;
+}
+
+.main-navbar {
+  height: 64px;
+  background-color: transparent;
+
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.main-navbar .link-container {
+  float: right;
+  height: 64px;
+  margin: 0px 20px;
+  padding-left: 20px;
+}
+
+.main-navbar .link-container li {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding: 7px 10px;
+}
+
+.main-navbar .link-container li a {
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  color: #bea27a;
+}
+
+.main-navbar .link-container li:hover a {
+  color: #bea27a;
+}
+
+/*logo linkedin*/
+
+.linkedin {
+  position: relative;
+  margin-top: 680px;
+}
+
+/*logo cv*/
+
+.cv {
+  position: relative;
+  margin-top: 680px;
+  margin-left: 30px;
+}
+
+/*Titre et sous titre*/
+header .header-content {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 300px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+header .header-content h1,
+header .header-content p {
+  text-align: center;
+  color: #bea27a;
+}
+
+header .header-content h1 {
+  font-size: 40px;
+}
+
+header .header-content p {
+  font-style: normal;
+  font-size: 40px;
+}
+
+/* Titre projet */
+#projets {
+  /*border-top: 3px solid blue;
+  border-image: linear-gradient(115deg, #03001e, #7303c0, #ec38bc, #fdeff9);
+  border-image-slice: 1;*/
+  margin-top: 1000px;
+}
+
+#projets .title {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  color: #bea27a;
+  font-size: 40px;
+}
+
+/* Projet complet + titre */
+#blog {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  background-color: transparent;
+  /*margin-left: 30px;*/
+}
+
+#blog h2 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.billet {
+  height: 50vh;
+  width: 50vh;
+  margin-top: 95px;
+  padding: 20px;
+  border: solid 2px #bea27a;
+  border-radius: 10px;
+  margin-left: 30px;
+  color: #bea27a;
+}
+
+.billet a {
+  text-decoration: none;
+  color: #bea27a;
+  /*margin-left: 150px;*/
+  padding: 5px;
+  border: 2px solid #bea27a;
+  border-radius: 10px;
+}
+
+.billet a:hover {
+  color: bisque;
+}
+
+.logoApp {
+  padding-left: 90px;
+}
+.logoFrameworkLast {
+  padding-left: 90px;
+}
+
+.lienApp {
+  margin-bottom: 3px;
+}
+/* Contact */
+#contact {
+  margin-top: 150px;
+  margin-left: 350px;
+  background-color: transparent;
+  padding: 20px 30px;
+}
+
+#contact .section-title {
+  color: #bea27a;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+#contact .contact-form {
+  margin: auto;
+  width: 50vw;
+}
+
+#contact .contact-form label {
+  color: #bea27a;
+  font-family: "Quicksand", sans-serif;
+}
+
+#contact .contact-form .text-input-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contact .contact-form input[type="text"],
+#contact .contact-form input[type="email"],
+#contact .contact-form textarea {
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #bea27a;
+  color: #bea27a;
+}
+
+#contact .contact-form .submit-button {
+  width: 100px;
+  margin: 15px auto;
+  display: block;
+  color: #bea27a;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #bea27a;
+  font-family: "Quicksand", sans-serif;
+}
+
+#contact .contact-form .submit-button:hover {
+  background-color: white;
+  color: #bea27a;
+  cursor: pointer;
+}
+
+/* Footer */
+
+/* Pied de page */
+footer {
+  background: #ccc;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  margin-top: 1300px;
+  background-color: #bea27a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

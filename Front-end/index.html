@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <script src="js/lib.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+     <!--Barre de Navigation-->
+     <nav class="main-navbar">
+
+        <ul class="link-container">
+            <li><a  href="#projets">Projets</a></li>
+            <li><a  href="#contact">Contactez-moi</a></li>
+        </ul>
+</nav>
+
+
+
+<!--En-tête du site-->
+<header>
+    <div class="header-content">
+        <h1>GOUBAULT VIRGINIE</h1>
+        <p>DEVELOPPEUSE FULLSTACK JS</p>
+    </div>
+</header>
+<!--Cards Projets-->
+<section id="projets">
+
+    <h1 class="title">Mes projets</h1>
+
+</section>
+
+
+<!--Blog-->
+
+<section id="blog">
+
+    <!--Billet 1-->
+
+    <div class="billet">
+
+        <h2>SITE VITRINE</h2>
+        <img class="logo" width="400" height="auto" src="./images/WI-port.png"/>
+        <br/>
+        <img class="logoFramework" width="100" height="auto" src="./images/html.png"/>
+        
+        
+        <a class="lien" href="https://github.com/Virginie-Goub/Site-Vitrine-Portfolio.git">Lien GitHub</a>
+
+    </div>
+
+    <!--Billet 2-->
+
+    <div class="billet">
+
+        <h2>MINI-PROJET MERN</h2>
+        <img class="logo" width="400" height="auto" src="./images/MT portfolio.png"/>
+        <br/>
+        <img class="logoFramework" width="100" height="auto" src="./images/mern.png"/>
+        
+        
+        <a class="lien" href="https://github.com/Virginie-Goub/Projet-MERN-Bocal-Academy.git">Lien GitHub</a>
+
+    </div>
+
+    <!--Billet 3-->
+
+    <div class="billet">
+
+        <h2>APPLICATION MOBILE</h2>
+        <img class="logoApp" width="230" height="auto" src="./images/meteo port.JPG"/>
+        <br/>
+        <img class="logoFrameworkLast" width="90" height="auto" src="./images/reactnative.png"/>
+        
+        <a class="lienApp" href="">Lien GitHub</a>
+
+    </div>
+        <!-- Block contact-->
+        <section id="contact">
+        <h2 class="section-title">Contactez-moi</h2>
+        <form method="POST" class="contact-form">
+            <label class="text-input-label" for="firstname">Prénom</label>
+            <input class="js-input" type="text" name="prénom" id="firstname" required />
+
+            <label class="text-input-label" for="lastname">Nom</label>
+            <input class="js-input" type="text" name="nom" id="lastname" required />
+
+            <label class="text-input-label" for="email">Email</label>
+            <input class="js-input" type="email" name="email" id="email" required />
+
+            <label class="text-input-label" for="message">Message:</label>
+            <textarea class="js-input message-form" name="message" id="message" required></textarea>
+
+            <br />
+
+            <button type="submit" class="submit-button">ENVOYER</button>
+        </form>
+        </section>
+
+        <div class="linkedin">
+            <a href="https://fr.linkedin.com/in/virginie-goubault-875285197"><img  width="80" height="auto" src="./images/linkedin.jpeg" alt="linkedin"/></a>
+        </div>
+        <div class="cv">
+            <a href="cv/cv recherche stage.pdf"><img  width="80" height="auto" src="./images/cv.jpeg" alt="CV"/></a>
+        </div>
+
+         <!-- Pied de page-->
+         
+        
+        <footer>
+        
+            <p class="footer-content">&copy; Goubault Virginie 2021</p>
+        
+        </footer>
+
+       
+    
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
