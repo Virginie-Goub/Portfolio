@@ -3,13 +3,11 @@ body {
   background-size: cover;
   font-family: sans-serif;
   background-attachment: fixed;
-  margin: 0px;
 }
 
 /* Barre de navigation */
-.main-navbar .logo {
-  height: 50px;
-  margin: 7px 20px;
+#logo.logoVG {
+  margin: 20px;
 }
 
 .main-navbar {
@@ -35,6 +33,7 @@ body {
   height: 50px;
   line-height: 50px;
   padding: 7px 10px;
+  font-size: 20px;
 }
 
 .main-navbar .link-container li a {
@@ -44,7 +43,7 @@ body {
 }
 
 .main-navbar .link-container li:hover a {
-  color: #bea27a;
+  font-size: 25px;
 }
 
 /*logo linkedin*/
@@ -68,22 +67,13 @@ header .header-content {
   left: 0px;
   right: 0px;
   top: 300px;
-  color: white;
+
   font-family: "Quicksand", sans-serif;
 }
 
-header .header-content h1,
-header .header-content p {
+header .header-content h1 {
   text-align: center;
   color: #bea27a;
-}
-
-header .header-content h1 {
-  font-size: 40px;
-}
-
-header .header-content p {
-  font-style: normal;
   font-size: 40px;
 }
 
@@ -92,7 +82,7 @@ header .header-content p {
   /*border-top: 3px solid blue;
   border-image: linear-gradient(115deg, #03001e, #7303c0, #ec38bc, #fdeff9);
   border-image-slice: 1;*/
-  margin-top: 1000px;
+  margin-top: 60vw; /*1000px*/
 }
 
 #projets .title {
@@ -102,7 +92,7 @@ header .header-content p {
   font-family: "Quicksand", sans-serif;
   text-align: center;
   color: #bea27a;
-  font-size: 40px;
+  font-size: 5vw; /*40px*/
 }
 
 /* Projet complet + titre */
@@ -217,14 +207,27 @@ header .header-content p {
 /* Footer */
 
 /* Pied de page */
-footer {
+footer .row {
   background: #ccc;
-  position: absolute;
+  flex-direction: row;
   width: 100%;
   height: 50px;
-  margin-top: 1300px;
   background-color: #bea27a;
   color: white;
+  padding-left: 320px;
+  padding-right: 320px;
+  padding-top: 5px;
+}
+
+.block1 {
+  float: left;
   text-align: center;
-  padding: 10px;
+  justify-content: center;
+  padding-left: 300px;
+  padding-right: 10px;
+}
+
+.block2 {
+  text-align: center;
+  justify-content: center;
 }
