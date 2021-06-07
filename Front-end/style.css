@@ -1,3 +1,5 @@
+/*RESPONSIVE*/
+
 body {
   background-image: url("https://us.123rf.com/450wm/yurygulakov/yurygulakov1709/yurygulakov170900004/85751093-ordinateur-portable-argent-moderne-sur-un-fond-noir-la-moiti%C3%A9-de-l-ordinateur-%C3%A0-l-ombre-.jpg?ver=6");
   background-size: cover;
@@ -50,15 +52,10 @@ body {
 
 .linkedin {
   position: relative;
-  margin-top: 680px;
 }
 
-/*logo cv*/
-
 .cv {
-  position: relative;
-  margin-top: 680px;
-  margin-left: 30px;
+  padding: 5px;
 }
 
 /*Titre et sous titre*/
@@ -66,8 +63,7 @@ header .header-content {
   position: absolute;
   left: 0px;
   right: 0px;
-  top: 300px;
-
+  top: 170px;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -79,73 +75,93 @@ header .header-content h1 {
 
 /* Titre projet */
 #projets {
-  /*border-top: 3px solid blue;
-  border-image: linear-gradient(115deg, #03001e, #7303c0, #ec38bc, #fdeff9);
-  border-image-slice: 1;*/
-  margin-top: 60vw; /*1000px*/
-}
-
-#projets .title {
+  margin-top: 400px;
   text-align: center;
   justify-content: center;
   display: block;
   font-family: "Quicksand", sans-serif;
   text-align: center;
   color: #bea27a;
-  font-size: 5vw; /*40px*/
+  font-size: 5vw;
 }
+
+/******************************************/
 
 /* Projet complet + titre */
 #blog {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   align-content: space-around;
   background-color: transparent;
-  /*margin-left: 30px;*/
 }
 
-#blog h2 {
+#blog .titreBlog {
   font-family: "Quicksand", sans-serif;
-}
-
-.billet {
-  height: 50vh;
-  width: 50vh;
-  margin-top: 95px;
-  padding: 20px;
-  border: solid 2px #bea27a;
-  border-radius: 10px;
-  margin-left: 30px;
+  text-align: center;
   color: #bea27a;
+}
+.billet {
+  height: 100%;
+  width: 50%;
+  margin: 0px;
 }
 
 .billet a {
   text-decoration: none;
   color: #bea27a;
-  /*margin-left: 150px;*/
   padding: 5px;
   border: 2px solid #bea27a;
   border-radius: 10px;
+  text-align: center;
+  justify-content: center;
 }
 
 .billet a:hover {
   color: bisque;
 }
 
-.logoApp {
-  padding-left: 90px;
+.logo {
+  padding-left: 40px;
+  width: 300px;
+  height: auto;
 }
+
+.logoApp {
+  padding-left: 40px;
+  width: 200px;
+  height: auto;
+}
+
+.logoFramework {
+  margin-left: 40px;
+}
+
 .logoFrameworkLast {
-  padding-left: 90px;
+  margin-left: 40px;
+}
+
+.lien {
+  margin-left: 40px;
 }
 
 .lienApp {
-  margin-bottom: 3px;
+  margin-left: 40px;
 }
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 812px) {
+  #blog {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+  }
+}
+
 /* Contact */
 #contact {
   margin-top: 150px;
-  margin-left: 350px;
+  margin-left: 30px;
   background-color: transparent;
   padding: 20px 30px;
 }
@@ -207,15 +223,13 @@ header .header-content h1 {
 /* Footer */
 
 /* Pied de page */
-footer .row {
+footer {
   background: #ccc;
   flex-direction: row;
   width: 100%;
   height: 50px;
   background-color: #bea27a;
   color: white;
-  padding-left: 320px;
-  padding-right: 320px;
   padding-top: 5px;
 }
 
@@ -223,8 +237,7 @@ footer .row {
   float: left;
   text-align: center;
   justify-content: center;
-  padding-left: 300px;
-  padding-right: 10px;
+  padding-left: 45vw;
 }
 
 .block2 {
